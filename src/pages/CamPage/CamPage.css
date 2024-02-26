@@ -1,0 +1,81 @@
+body {
+  padding: 0px 140px;
+  /* margin: 100px; */
+}
+
+.entrance-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.content {
+  text-align: center;
+}
+
+.webcam {
+  width: 640px;
+  height: 400px;
+  margin-top: 4px;
+  border-radius: 8px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+
+.content {
+  text-align: center;
+  margin-top: 20px; 
+}
+
+h1 {
+  font-size: 2.5rem; 
+  color: #333; 
+  margin-bottom: 8px; 
+}
+
+p {
+  font-size: 1.2rem; 
+  color: #666; 
+  margin-bottom: 4px; 
+}
+
+.webcam {
+  width: 100%; 
+  max-width: 600px; 
+  border: 2px solid #ccc; 
+}
+
+.overlay {
+  position: absolute; 
+  top: 0;
+  left: 0;
+}
+
+.face-visibility {
+  font-size: 1.2rem; 
+  margin-top: 0px; 
+}
+
+.face-visibility.green {
+  color: green; 
+}
+
+.face-visibility.red {
+  color: red; 
+}
+
+.validation-percentage {
+  font-size: 1.2rem;
+}
+
+.seconds {
+  font-size: 1.2rem; 
+}
